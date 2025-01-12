@@ -25,10 +25,8 @@ int main(){
 }
 
 void CopiaString(char *str1, char *str2) {
-    while (*str1 != '\0') {
-
+    while (*str1 != '\0') { 
         *str2 = *str1;
-
         str1++;
         str2++;
     }
