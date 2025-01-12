@@ -36,7 +36,7 @@ int main(){
 }
 
 void ConcatenaStrings(char *str1, char *str2, int T1,int T2) {
-    for(int i = 0; i < *(str2+i) != '\0'; i++){
-        *(str1+(T1-1)+i) = *(str2+i);
+    for(int i = 0; i < T2; i++){
+        *(str1+T1+i) = *(str2+i);
     }
 }
