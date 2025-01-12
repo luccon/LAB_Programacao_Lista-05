@@ -3,10 +3,10 @@
 //Para finalizar o programa digite "-99"
 
 int main(){
-    int num = 0, menor = 0, aux = 0, sair = 0;
-    int *p_num = &num, *p_menor = &menor, *p_aux = &aux, *p_sair = &sair;
+    int num = 0, menor = 0, aux = 0;
+    int *p_num = &num, *p_menor = &menor, *p_aux = &aux;
 
-    while(!sair){
+    while(1){
 
         printf("Digite o %dº número:\n",*p_aux+1);
         scanf("%d",p_num);
