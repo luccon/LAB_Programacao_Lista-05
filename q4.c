@@ -2,6 +2,8 @@
 
 #define TAM 5
 
+//os endereços na memória são sempre continuos
+
 int main() {
     int opcao;
 
