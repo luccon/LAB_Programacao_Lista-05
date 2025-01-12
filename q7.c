@@ -28,7 +28,6 @@ int main(){
         }
         string2T++;
     }
-    printf("%d %d\n",stringT,string2T);
 
     ConcatenaStrings(string,string2,stringT,string2T);
 
@@ -39,4 +38,5 @@ void ConcatenaStrings(char *str1, char *str2, int T1,int T2) {
     for(int i = 0; i < T2; i++){
         *(str1+T1+i) = *(str2+i);
     }
+    *(str1+T1+T2) = '\0';
 }
